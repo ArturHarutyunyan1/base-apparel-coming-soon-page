@@ -25,13 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./desktop-preview.jpg)
+![](img/desktop-preview.jpg)
 
 
 ### Links
 
 - Solution [URL](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0)
-- Live Site [URL](https://arturharutyunyan1.github.io/base-apparel-coming-soon/)
+- Live Site [URL](https://arturharutyunyan1.github.io/base-apparel-coming-soon-page/)
 
 ## My process
 
