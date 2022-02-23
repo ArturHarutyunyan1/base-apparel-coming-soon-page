@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +7,11 @@
 
 body{
     font-family: 'Josefin Sans', sans-serif;
+}
+
+::selection{
+    background-color: hsl(0, 6%, 24%);
+    color: hsl(0, 93%, 68%);
 }
 
 .row{
@@ -18,6 +23,8 @@ body{
 #left{
     width: 60%;
     background-image: url('img/bg-pattern-desktop.svg');
+    background-position: bottom bottom;
+    background-size: cover;
 }
 
 #right{
@@ -128,7 +135,7 @@ a{
     text-decoration: none;
 }
 
-@media (max-width: 900px){
+@media (max-width: 768px){
     .input-line{
         width: 100%;
     }
@@ -137,7 +144,7 @@ a{
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
     html,body{
         overflow-x: hidden;
     }
@@ -150,9 +157,10 @@ a{
     }
     .header{
         padding: 1.5rem;
+        background-color: white;
     }
     .title{
-        font-size: 50px;
+        font-weight: 600;
     }
     .subtitle{
         font-size: 20px;
@@ -169,7 +177,7 @@ a{
         display: block;
     }
     .input-line{
-        width: 300px;
+        width: 100%;
     }
     h3{
         font-size: 20px;
